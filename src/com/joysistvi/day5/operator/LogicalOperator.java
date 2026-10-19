@@ -11,8 +11,8 @@ public class LogicalOperator {
         System.out.println(isJuniorHigh);
 
 
-        //boolean isAdult = !(age < 18);
-        //System.out.println(isAdult);
+        boolean isAdult = !(age < 18);
+        System.out.println(isAdult);
 
         int num = 10;
         int num2 = 20;
@@ -20,6 +20,6 @@ public class LogicalOperator {
         //                     F             T
         //System.out.println(num > num2 && num < num2);
         //                     F             T
-        //System.out.println(num > num2 || num < num2);
+        System.out.println(num > num2 || num < num2);
     }
 }
