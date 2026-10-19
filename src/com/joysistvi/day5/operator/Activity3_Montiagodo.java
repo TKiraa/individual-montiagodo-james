@@ -19,7 +19,7 @@ public class Activity3_Montiagodo {
         boolean isWeekend = true;
         boolean isHoliday = false;
 
-        String noClasses = (isWeekend || isHoliday) ? "Yes, no classes." : "No, no classes.";
+        String noClasses = (isWeekend || isHoliday) ? "Yes, no classes." : "No, there are classes.";
         System.out.println("Are there no classes today? " + noClasses);
 
 
