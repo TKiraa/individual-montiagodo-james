@@ -1,4 +1,4 @@
-package com.joysistvi.day8.looping.forloop;
+package com.joysistvi.day9.looping.forloop;
 
 public class ForLoopStatement {
     public static void main(String[] args) {

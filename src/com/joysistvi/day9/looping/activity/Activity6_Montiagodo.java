@@ -1,4 +1,4 @@
-package com.joysistvi.day8.looping.activity;
+package com.joysistvi.day9.looping.activity;
 
 import java.util.Scanner;
 
