@@ -83,5 +83,6 @@ public class Activity11_Montiagodo {
         System.out.println("\nOriginal number: " + number);
         System.out.println("Absolute Value: " + Math.abs(number));
 
+        scanner.close();
     }
 }
