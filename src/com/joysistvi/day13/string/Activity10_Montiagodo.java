@@ -13,7 +13,6 @@ public class Activity10_Montiagodo {
 
         // 1. contains()
         System.out.println("Contains [me]: " + name.contains("me"));
-        //
 
         // 2. endsWith()
         System.out.println("Ends With [es]: " + name.endsWith("es"));

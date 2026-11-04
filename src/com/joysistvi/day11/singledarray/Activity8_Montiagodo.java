@@ -39,5 +39,7 @@ public class Activity8_Montiagodo {
         System.out.println("Average = " + average);
         System.out.println("Highest = " + highest);
         System.out.println("Lowest = " + lowest);
+
+        sc.close();
     }
 }

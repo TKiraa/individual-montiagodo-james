@@ -45,6 +45,7 @@ public class Activity9_Montiagodo {
                 scanner.nextLine();
             }
 
+        System.out.println();
         System.out.println("============================================================\n" +
                             "                      Grades Report\n" +
                             "============================================================");

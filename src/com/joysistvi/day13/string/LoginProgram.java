@@ -2,17 +2,17 @@ package com.joysistvi.day13.string;
 
 import java.util.Scanner;
 
-public class StringClass {
+public class LoginProgram {
 
     public static void main(String[] args) {
         // Login Program
         Scanner scanner = new Scanner(System.in);
         System.out.println("*** Login ***");
+        final int MAX_ATTEMPs = 5;
 
-        int retries = 0;
+        boolean isLoggenIn = false;
 
-    while (retries < 5) {
-
+        for (int attemp = 0; attemp < MAX_ATTEMPs; attemp++) {
         String correctUsername =  "admin";
         String correctPassword = "admin123";
 
@@ -25,21 +25,26 @@ public class StringClass {
         // Validation
         if (username.isEmpty() || password.isEmpty()) {
             System.out.println("Username and Password cannot be empty.\n");
-            retries++;
+            continue; // skip the current iteration
         }
         // Authentication
-        else if (username.equals(correctUsername) && password.equals(correctPassword)) {
+         if (username.equals(correctUsername) && password.equals(correctPassword)) {
             System.out.println("Login Successfully!");
             System.out.println("Welcome, " + username + "!");
+            isLoggenIn = true;
             break;
         } else {
             System.out.println("Invalid Username or Password.");
             System.out.println("Access Denied.\n");
-            retries++;
+
         }
     }
-    if (retries == 5)
-        System.out.println("Maximum attempts reached.");
+        if (!isLoggenIn) {
+            System.out.println("Too many field attempts. Account locked.");
+        }
+
+        scanner.close();
+
         // 5 retries
 
     }
