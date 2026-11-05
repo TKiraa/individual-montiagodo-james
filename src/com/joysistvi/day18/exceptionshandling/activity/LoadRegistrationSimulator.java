@@ -2,7 +2,7 @@ package com.joysistvi.day18.exceptionshandling.activity;
 
 import java.util.Scanner;
 
-public class LoadRegistrationSimulator {
+public class Activity12_Montiagodo {
 
     static Scanner scanner = new Scanner(System.in);
 
