@@ -74,7 +74,7 @@ public class UserAccount {
         return value == null || value.trim().isEmpty();
     }
 
-    // Email validation (null-safe)
+    // Email validation
     public static boolean isValidEmail(String email) {
         return email != null
                 && email.length() <= 254
