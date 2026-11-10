@@ -52,8 +52,6 @@ public abstract class Pen {
         }
     }
 
-
-
     @Override
     public String toString() {
         return "Brand: " + brand + '\n' +
