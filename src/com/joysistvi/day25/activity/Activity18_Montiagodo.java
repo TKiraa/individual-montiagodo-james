@@ -87,27 +87,19 @@ public class Activity18_Montiagodo {
                 choice = showMenu();
 
                 switch (choice) {
-                    case 1:
-                        addTask();
-                        break;
+                    case 1 -> addTask();
 
-                    case 2:
-                        viewTasks();
-                        break;
-                    case 3:
-                        updateTask();
-                        break;
-                    case 4:
-                        removeTask();
-                        break;
-                    case 5:
-                        clearTasks();
-                        break;
-                    case 0:
-                        System.out.println("Exiting TodoManager. Goodbye!");
-                        break;
-                    default:
-                        System.out.println("Invalid choice. Please try again.");
+                    case 2 -> viewTasks();
+
+                    case 3 -> updateTask();
+
+                    case 4 -> removeTask();
+
+                    case 5 -> clearTasks();
+
+                    case 0 -> System.out.println("Exiting TodoManager. Goodbye!");
+
+                    default -> System.out.println("Invalid choice. Please try again.");
             }
         } while (choice != 0);
     }
